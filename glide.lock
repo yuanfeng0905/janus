@@ -1,5 +1,5 @@
-hash: dc78b56933a6c3f5ca7a452d68a643664f7bf2f290c9f41be54902730ecd2ec7
-updated: 2017-02-01T22:22:32.384224423+01:00
+hash: 28fc40d4733127d452ca24af28d550c6470b3151199c7993d1c679efeeb53b3d
+updated: 2017-03-17T16:03:16.519525171+01:00
 imports:
 - name: github.com/ant0ine/go-json-rest
   version: ce4b71cdf7ba29ef443d704bd923f5bbf281ee30
@@ -13,12 +13,14 @@ imports:
 - name: github.com/dgrijalva/jwt-go
   version: d2709f9f1f31ebcda9651b03077758c1f3a0018c
 - name: github.com/dimfeld/httptreemux
-  version: a12c89c2c0f23f880dfd74af4832a23bae6e837a
+  version: 86f7c217d9043ebc6adfd8e2ed04a0bb1e1db651
 - name: github.com/garyburd/redigo
   version: 8873b2f1995f59d4bcdd2b0dc9858e2cb9bf0c13
   subpackages:
   - internal
   - redis
+- name: github.com/hellofresh/stats-go
+  version: 6abcee714855c7213057e7066f2d1ee3655562ae
 - name: github.com/justinas/alice
   version: 052b8b6c18edb9db317af86806d8e00ebaa94160
 - name: github.com/kelseyhightower/envconfig
@@ -32,7 +34,7 @@ imports:
 - name: github.com/rs/xhandler
   version: d9d9599b6aaf6a058cb7b1f48291ded2cbd13390
 - name: github.com/Sirupsen/logrus
-  version: d26492970760ca5d33129d2d799e34be5c4782eb
+  version: ba1b36c82c5e05c4f912a88eab0dcd91a171688f
 - name: github.com/ulule/limiter
   version: c242da0b4c9524723c5a2dc8e7d49c228d1bb33c
 - name: golang.org/x/net
@@ -55,7 +57,7 @@ imports:
   - internal/scram
 testImports:
 - name: github.com/davecgh/go-spew
-  version: 2df174808ee097f90d259e432cc04442cf60be21
+  version: 6d212800a42e8ab5c146b8ace3490ee17e5225f9
   subpackages:
   - spew
 - name: github.com/pmezard/go-difflib
